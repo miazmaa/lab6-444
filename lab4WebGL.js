@@ -212,7 +212,7 @@ function render()
 
     gl.uniform3fv(
         lightDirectionLoc,
-        flatten(vec3(1.0, 1.0, 1.0))
+        flatten(vec3(0.0, -1.0, 0.0))
     );
 
     gl.drawArrays(
