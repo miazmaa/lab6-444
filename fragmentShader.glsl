@@ -19,7 +19,7 @@ void main()
 
     vec3 color =
         ambient +
-        diffuse * vec3(0.0,1.0,0.0);
+        diffuse * vec3(0.0,0.0,1.0);
 
     fColor = vec4(color, 1.0);
 }
